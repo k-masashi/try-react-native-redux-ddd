@@ -16,20 +16,8 @@ export default class Article {
         name: string,
         description: string
     ) {
-        this.id = id;
-        this.name = name;
-        this.description = description;
-    }
-
-    static create(
-        id: ArticleId,
-        name: string,
-        description: string
-    ): Article { 
-        return new Article(
-            id,
-            name,
-            description
-        )
+      this.id = id
+      this.name = name
+      this.description = description
     }
 }
