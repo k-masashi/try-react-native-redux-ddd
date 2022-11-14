@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "version": "legacy" }],
+    "@babel/plugin-proposal-class-properties",
+    "babel-plugin-transform-typescript-metadata",
+    "babel-plugin-parameter-decorator"
+    // "babel-plugin-parameter-decorator"
+  ]
+}
