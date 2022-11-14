@@ -33,5 +33,7 @@ View, Presenterの役割を担う。フロントエンドの入出力のコン�
 DIを実現するために、InversifyJSを利用。
 各レイヤーを独立させるために、DIコンテナを`inversify.config.ts`に定義している。
 
+https://github.com/k-masashi/try-react-native-redux-ddd/blob/main/src/config/inversify.config.ts
+
 
 
