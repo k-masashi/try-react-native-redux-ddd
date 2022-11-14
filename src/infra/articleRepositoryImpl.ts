@@ -1,5 +1,4 @@
-import { inject, injectable } from 'inversify'
-import { DIContainerType } from '../config/inversify.config'
+import { injectable } from 'inversify'
 import Article, { ArticleId } from '../domain/article'
 import { ArticleRepository } from '../domain/articleRepository'
 import { SampleApiClient } from './apiClient'
